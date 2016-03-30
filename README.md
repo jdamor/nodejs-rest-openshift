@@ -1,6 +1,9 @@
 # nodejs-rest-openshift
 Node.js rest api hosted in Openshift
 
+[![Build Status](https://travis-ci.org/jdamor/nodejs-rest-openshift.svg?branch=master)](https://travis-ci.org/jdamor/nodejs-rest-openshift)
+
+
 The OpenShift `nodejs` cartridge documentation can be found at:
 
 http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
