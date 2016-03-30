@@ -21,10 +21,11 @@ http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
 * Waffle.io:
   - Project management board based on Github issues
   - Just login with your github user and accept pull request to start (and add badges)
-* Coveralls:
+* Coveralls (TODO):
   - npm install coveralls --save-dev
     also if using mocha: (npm install mocha-lcov-reporter --save-dev)
   - Added badge status for branch master.
+  - Instructions: https://github.com/nickmerwin/node-coveralls
 
 
 
