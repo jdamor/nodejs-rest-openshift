@@ -2,6 +2,7 @@
 Node.js rest api hosted in Openshift
 
 [![Build Status](https://travis-ci.org/jdamor/nodejs-rest-openshift.svg?branch=master)](https://travis-ci.org/jdamor/nodejs-rest-openshift)
+[![Coverage Status](https://coveralls.io/repos/github/jdamor/nodejs-rest-openshift/badge.svg?branch=master)](https://coveralls.io/github/jdamor/nodejs-rest-openshift?branch=master)
 
 [![Stories in Ready](https://badge.waffle.io/jdamor/nodejs-rest-openshift.svg?label=ready&title=Ready)](http://waffle.io/jdamor/nodejs-rest-openshift)
 [![Stories in In Progress](https://badge.waffle.io/jdamor/nodejs-rest-openshift.svg?label=ready&title=In Progress)](http://waffle.io/jdamor/nodejs-rest-openshift)
@@ -14,19 +15,16 @@ http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
   - Added .travis.yml and badge for branch master.
   - travis setup openshift
   - travis command line client: https://github.com/travis-ci/travis.rb#installation 
+* Openshift (Using Web console):
+  - Create a nodejs 0.10 application
+  - Update .travis.yml to push succesful builds to Openshift (travis setup openshift)
 * Waffle.io:
   - Project management board based on Github issues
   - Just login with your github user and accept pull request to start (and add badges)
-
-PENDIENTES:
 * Coveralls:
-  - Unit test (JUnit) coverage added to .travis.yml
+  - npm install coveralls --save-dev
+    also if using mocha: (npm install mocha-lcov-reporter --save-dev)
   - Added badge status for branch master.
-  - Added plugin for Maven
-* Openshift (Using Web console):
-  - Create a "Do-It-Yourself 0.1" application
-  - Choose this repositorie as Source Code
-  - Update .travis.yml to push succesful builds to Openshift (travis setup openshift)
 
 
 
