@@ -1,14 +1,23 @@
 language: node_js
 node_js:
-  - "5"
-  - "5.1"
-  - "4"
-  - "4.2"
-  - "4.1"
-  - "4.0"
-  - "0.12"
-  - "0.11"
-  - "0.10"
-  - "0.8"
-  - "0.6"
-  - "iojs"
+- '5'
+- '5.1'
+- '4'
+- '4.2'
+- '4.1'
+- '4.0'
+- '0.12'
+- '0.11'
+- '0.10'
+- '0.8'
+- '0.6'
+- iojs
+deploy:
+  provider: openshift
+  user: jdamor.juampi@gmail.com
+  password:
+    secure: TvlVOS77nlg2kAGIz/HDcAEr5fwyMfecsPLprwjZaB0uqWYl2++nvdi4zrCzJGtpRR3kQleshhVxKEvsNQt0qkPSMH7Z1QlvJzh+x39zv6B2aN2ajlTOyzuX5hwMs3Y3he6dKcHLeOzl6RFnPt/GVM9TIIJIlDKuMIZ0shSmgnYsoi9JVNoWzCdQ3l4lLydx4m19OpiPb81t10VKd7lGAUjWMdixLJX53U8kh7dPi6fLjBTus20/3mpeiLEdqLRiRxBbv74CQ3KBtr/9/H1172KWnwJwerPIB+bmAGJ6qbSiBfeSMUV5Eq+H3ESFZFPUQGyyLwiXdEmbJ8oOmeXBEwvScPVBbdfqSWRUUdYRYnS65B/BEjitfag5DQFe73A+TQ9sr6fQraLJp6fwBAhNeK3CNhmuRuDv/aLxa2+nbtJrGqCypb56hQp75PPToDZBE79khdcLcQWY/9NdS1JcR9XsZfeer8irttjd0qX+gE+8qom7BH0N03lxM7TTXz6BE2pse8MHg5NArURSzwRzI8vqzAdtpt3rh0oCsIC0EmzjxzoZ8mHfC7lszDWggvj9pDYujsSW3aOrA3a7nyogTItFjQ3XrVYhzZ+nrMzi//JCyCHTWxMAnaP3SBgvqqchmgO6NjDPN5gcXUYbJerSMPuCZXrUXpwyUmJ61LsBML0=
+  app: restjs
+  domain: jdamor
+  on:
+    repo: jdamor/nodejs-rest-openshift
