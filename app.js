@@ -1,9 +1,4 @@
-const http         = require('http'),
-      fs           = require('fs'),
-      path         = require('path'),
-      contentTypes = require('./utils/content-types'),
-      sysInfo      = require('./utils/sys-info'),
-      express      = require('express'),
+const express      = require('express'),
       env          = process.env;
 
 let app = express();
