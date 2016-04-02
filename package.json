@@ -1,34 +1,33 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "name": "nodejs-rest-openshift",
+  "version": "0.1.1",
+  "description": "Custom Node.js cartridge for OpenShift - sample application",
   "keywords": [
     "OpenShift",
     "Node.js",
     "application",
     "openshift"
   ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
-  },
   "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/openshift/origin-server"
   },
+  "private": true,
+  "main": "start.js",
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
   "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
+    "node": ">= 5.10.0",
+    "npm": ">= 3.8.5"
   },
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "^4.8.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.9"
   },
-  "bundleDependencies": [],
-  "private": true,
-  "main": "server.js"
+  "author": "Juan Diego Amor Sanchez <jdamor.juampi@gmail.com>",
+  "license": "MIT"
 }
