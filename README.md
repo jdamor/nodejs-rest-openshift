@@ -10,6 +10,7 @@ Node.js rest api hosted in Openshift
 The OpenShift `nodejs` cartridge documentation can be found at:
 
 http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+Note: Updated to use latest (no oficial) cartridge: https://github.com/icflorescu/openshift-cartridge-nodejs)
 
 * Travis-CI:
   - Added .travis.yml and badge for branch master.
